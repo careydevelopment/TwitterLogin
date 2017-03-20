@@ -13,4 +13,10 @@ public class TwitterLoginController {
 		return "twitterLogin";
 	}
 
+	
+	//redirect to demo if user hits the root
+	@RequestMapping("/")
+	public String home(Model model) {
+		return "redirect:twitterLogin";
+	}
 }

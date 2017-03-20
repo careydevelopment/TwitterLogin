@@ -63,8 +63,8 @@ public class GetTokenController {
     	Twitter twitter = null;
     	
     	//set the consumer key and secret for our app
-		String consumerKey = "[your consumer key here]";
-		String consumerSecret = "[your consumer secret here]";
+		String consumerKey = "[your key here]";
+		String consumerSecret = "[your secret here]";
     	
 		//build the configuration
     	ConfigurationBuilder builder = new ConfigurationBuilder();
