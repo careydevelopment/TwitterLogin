@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
@@ -6,247 +5,49 @@
 <!--[if !IE]><!-->
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
     <!--<![endif]-->
-    <!-- BEGIN HEAD -->
 
     <head>
         <meta charset="utf-8"/>
-        <title>SEO Playhouse | Home</title>
+        <title>Carey Development | Twitter Login Demo</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <meta content="The #1 Twitter automation tool on the web" name="description" />
+        <meta content="Twitter login demo" name="description" />
         <meta content="Carey Development, LLC" name="author" />
 
         <link th:href="@{/assets/global/plugins/font-awesome/css/font-awesome.min.css}" rel="stylesheet" type="text/css"></link>
         <link th:href="@{/assets/global/plugins/simple-line-icons/simple-line-icons.min.css}" rel="stylesheet" type="text/css"></link>
         <link th:href="@{/assets/global/plugins/bootstrap/css/bootstrap.min.css}" rel="stylesheet" type="text/css"></link>
         <link th:href="@{/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css}" rel="stylesheet" type="text/css"></link>
-        <!-- END GLOBAL MANDATORY STYLES -->
-        <!-- BEGIN THEME GLOBAL STYLES -->
+
         <link th:href="@{/assets/global/css/components.min.css}" rel="stylesheet" id="style_components" type="text/css"></link>
         <link th:href="@{/assets/global/css/plugins.min.css}" rel="stylesheet" type="text/css"></link>
-        <!-- END THEME GLOBAL STYLES -->
-        <!-- BEGIN THEME LAYOUT STYLES -->
+
         <link th:href="@{/assets/layouts/layout3/css/layout.min.css}" rel="stylesheet" type="text/css"></link>
         <link th:href="@{/assets/layouts/layout3/css/themes/default.min.css}" rel="stylesheet" type="text/css" id="style_color"></link>
         <link th:href="@{/assets/layouts/layout3/css/custom.min.css}" rel="stylesheet" type="text/css"></link>
-        <!-- END THEME LAYOUT STYLES -->
+
         <link rel="shortcut icon" th:href="@{/images/favicon.ico}"></link> 
-        
-        
+                
         <link th:href="@{/assets/pages/css/about.min.css}" rel="stylesheet" type="text/css" />
-        </head>
-    <!-- END HEAD -->
+    </head>
 
     <body class="page-container-bg-solid">
 		<div th:include="fragments/topmenuheader :: header"></div>
-        <!-- BEGIN CONTAINER -->
         <div class="page-container">
-            <!-- BEGIN CONTENT -->
             <div class="page-content-wrapper">
-                <!-- BEGIN CONTENT BODY -->
-                <!-- BEGIN PAGE HEAD-->
                 <div class="page-head" style="background-color:#eff3f8;padding-top:40px">
                     <div class="container">
-                        <!-- BEGIN PAGE TITLE -->
-                        <div class="page-title">
-                            <h1>
-                            </h1>
-                        </div>
-	                        <div class="row margin-bottom-40" style="background-image:url(./images/clown2.jpg);height:500px;background-position:center;">
-	                        <div class="col-md-12" style="text-align:center;margin-top:100px">
-	                            <h1 style="color:#ffffff">SEO Playhouse</h1>
-	                            <h3 style="color:#ffffff">A Circus of SERPtastic Solutions!</h3>
-	                            <div style="margin-top:100px">
+                        <div class="row margin-bottom-40">
+	                        <div class="col-md-12" style="text-align:left">
 	                            <a href="./getToken"><img th:src="@{/images/sign-in-with-twitter-gray.png}"/></a>
-	                            </div>
 	                        </div>
-                    		</div>
-                        <!-- END PAGE TITLE -->
-                        <!-- BEGIN PAGE TOOLBAR -->
+                   		</div>
                         <div class="page-toolbar">
-                            <!-- BEGIN THEME PANEL -->
-                            <!-- END THEME PANEL -->
                         </div>
-                        <!-- END PAGE TOOLBAR -->
                     </div>
                 </div>
-                <!-- END PAGE HEAD-->
-                <!-- BEGIN PAGE CONTENT BODY -->
-                <div class="page-content">
-                    <div class="container">
-                        <!-- BEGIN PAGE CONTENT INNER -->
-                        <div class="page-content-inner">
-                            <div class="row margin-bottom-40" style="text-align:center" data-auto-height="true">
-                        		<div class="col-md-12">
-                            		<h1>Join the Jamboree</h1>
-                        		</div>
-                            </div>
-                            <div class="row margin-bottom-40">
-                            <div class="col-md-12">
-                            <div class="panel panel-default" style="background-color:#E5F4F7">
-                                            <div class="panel-body" style="font-size:14pt;text-align:center"> SEO Playhouse is your one-stop shop for unlocking all the
-                                            important metrics about a website or URL. Join in on the fun by checking out the backlink
-                                            profile of your own website, unlocking secrets about how your competitors rank, and learning
-                                            which keywords put cash in your pocket. Our easy-to-read charts, graphs, and tables make 
-                                            website analysis a snap. We use multiple APIs from reputable sources so that all the information
-                                            you need is right here.
-                                         </div>
-                                        </div>
-                            </div>
-                            </div>
-	                        <div class="row margin-bottom-40">
-		                        <div class="col-lg-3 col-md-6" style="height:360px">
-		                            <div class="portlet light">
-		                                <div class="card-icon">
-		                                    <i class="fa fa-bar-chart font-blue theme-font"></i>
-		                                </div>
-		                                <div class="card-title">
-		                                    <span> An Amusement Park of APIs </span>
-		                                </div>
-		                                <div class="card-desc">
-		                                    <span> We integrate with a number of APIs so you can easily view your backlinks, evaluate keywords, and track competitors.</span>
-		                                </div>
-		                            </div>
-		                        </div>
-		                        <div class="col-lg-3 col-md-6" style="height:360px">
-		                            <div class="portlet light">
-		                                <div class="card-icon">
-		                                    <i class="fa fa-arrow-up font-blue theme-font"></i>
-		                                </div>
-		                                <div class="card-title">
-		                                    <span> A Big Tent to Build Your Business  </span>
-		                                </div>
-		                                <div class="card-desc">
-		                                    <span> We offer dozens of important metrics that show you how to stand out from the competition and increase your online reach. </span>
-		                                </div>
-		                            </div>
-		                        </div>
-		                        <div class="col-lg-3 col-md-6" style="height:360px">
-		                            <div class="portlet light">
-		                                <div class="card-icon">
-		                                    <i class="icon-like font-purple-wisteria theme-font"></i>
-		                                </div>
-		                                <div class="card-title">
-		                                    <span> A Funhouse of Friendly Features </span>
-		                                </div>
-		                                <div class="card-desc">
-		                                    <span> You'll love our easy-to-read reports that show you exactly how people are finding your site so you can double-down on what works!</span>
-		                                </div>
-		                            </div>
-		                        </div>
-		                        <div class="col-lg-3 col-md-6" style="height:360px">
-		                            <div class="portlet light">
-		                                <div class="card-icon">
-		                                    <i class="icon-diamond font-blue theme-font"></i>
-		                                </div>
-		                                <div class="card-title">
-		                                    <span> Three Rings That Bring the Bling </span>
-		                                </div>
-		                                <div class="card-desc">
-		                                    <span> Most importantly: the metrics we provide will help you make money. At the end of the day, that's what it's all about, isn't it?</span>
-		                                </div>
-		                            </div>
-		                        </div>
-	                    	</div>	                    	
-		                 <div class="row">
-	                        <div class="col-md-6 col-sm-12 col-xs-12" style="height:545px;">
-	                        	<div style="position: relative;top: 50%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);">
-								<div class="portlet box blue-hoki" >
-	                                <div class="portlet-title">
-	                                    <div class="caption">
-	                                       How Does It Work? </div>
-	                                </div>
-	                                <div class="portlet-body">
-	                                    <div>
-	                                        <strong>It's Simple</strong>
-	                                        <br/> Just login with Twitter (see above - and below). Then, create a project to track a variety of
-	                                        domains, subdomains, and URLs. You might like to track your own domain plus the domain of a few 
-	                                        competitors in one project. Or, you might prefer to track a number of related URLs in a single project.
-	                                        It's up to you.
-	                                        <p>&nbsp;</p>
-	                                        <strong>Get Your Stats</strong>
-	                                        <br/>Once you've created a project, add a link. After a brief wait while our clowns
-	                                        gather important data from cyberspace, the app will treat you to numerous important statistics about the
-	                                        link you provided. We offer data on flow metrics, backlinks, keywords, and competitors.
-	                                        <p>&nbsp;</p>
-	                                        <strong>Get Started Now</strong>
-	                                        <br/>What are you waiting for? SEO Playhouse is easy to use. Login now and start boosting your rank in the SERPs!
-	                                        <p>&nbsp;</p>
-	                                        <div style="text-align:center">
-	                                        	<a href="./getToken"><img th:src="@{/images/sign-in-with-twitter-gray.png}"/></a>
-	                                        </div>
-	                                   </div>
-	                                </div>
-	                            </div>
-	                            </div>	                           
-	                        </div>
-	                        <div class="col-md-6 col-sm-12 col-xs-12">
-	                            <div class="about-image" style="background: url(./images/happy-user.jpg) center no-repeat;"></div>
-	                        </div>
-	                    </div>      
-                        </div>
-                        <div class="row" style="margin-top:30px">
-	                        <div class="col-lg-4 col-md-4 col-sm-12">
-	                            <div class="portlet mt-element-ribbon light portlet-fit bordered">
-	                                <div class="ribbon ribbon-right ribbon-clip ribbon-shadow ribbon-color-primary uppercase">
-	                                    <div class="ribbon-sub ribbon-clip ribbon-right"></div> <i class="fa fa-cloud"></i> </div>
-	                                <div class="portlet-title">
-	                                    <div class="caption">
-	                                        <i class=" icon-layers font-green"></i>
-	                                        <span class="caption-subject font-green bold uppercase">Nothing to Install</span>
-	                                    </div>
-	                                </div>
-	                                <div class="portlet-body"> SEO Playhouse runs in the cloud. You won't have to install any software. </div>
-	                            </div>
-	                        </div>
-	                        <div class="col-lg-4 col-md-4 col-sm-12">
-	                            <div class="portlet mt-element-ribbon light portlet-fit bordered">
-	                                <div class="ribbon ribbon-right ribbon-clip ribbon-shadow ribbon-color-primary uppercase">
-	                                    <div class="ribbon-sub ribbon-clip ribbon-right"></div> <i class="fa fa-smile-o"></i> </div>
-	                                <div class="portlet-title">
-	                                    <div class="caption">
-	                                        <i class=" icon-layers font-green"></i>
-	                                        <span class="caption-subject font-green bold uppercase">User-Friendly</span>
-	                                    </div>
-	                                </div>
-	                                <div class="portlet-body"> SEO Playhouse is easy to use and offers step-by-step guidance. </div>
-	                            </div>
-	                        </div>
-	                        <div class="col-lg-4 col-md-4 col-sm-12">
-	                            <div class="portlet mt-element-ribbon light portlet-fit bordered">
-	                                <div class="ribbon ribbon-right ribbon-clip ribbon-shadow ribbon-color-primary uppercase">
-	                                	<div class="ribbon-sub ribbon-clip ribbon-right"></div> <i class="fa fa-thumbs-o-up"></i> </div>
-	                                <div class="portlet-title">
-	                                    <div class="caption">
-	                                        <i class=" icon-layers font-green"></i>
-	                                        <span class="caption-subject font-green bold uppercase">It's Free</span>
-	                                    </div>
-	                                </div>
-	                                <div class="portlet-body"> You can start using it today free of charge. What's not to love about that?</div>
-	                            </div>
-	                        </div>
-                        </div>
-                        
-                        <div class="row margin-bottom-40" style="text-align:center" data-auto-height="true">
-                        		<div class="col-md-12">
-                            		<h1>What Are You Waiting For?</h1>
-                            		<h3>SERP's Up!</h3>
-                        		</div>
-                        </div>
-                        <div class="row" style="text-align:center;margin-bottom:40px">
-                        	<a href="./getToken"><img th:src="@{/images/sign-in-with-twitter-gray.png}"/></a>
-                        </div>                        
-                        <!-- END PAGE CONTENT INNER -->
-                    </div>
-                </div>
-                <!-- END PAGE CONTENT BODY -->
-                <!-- END CONTENT BODY -->
             </div>
-            <!-- END CONTENT -->
-            <!-- BEGIN QUICK SIDEBAR -->
-            <!-- END QUICK SIDEBAR -->
         </div>
         <div th:include="fragments/homefooter :: footer"></div>
     </body>
-
 </html>

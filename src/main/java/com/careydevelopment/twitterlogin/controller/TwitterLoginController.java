@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class TwitterLoginController {
 	
-	@RequestMapping("/")
+	@RequestMapping("/twitterLogin")
 	public String twiterLogin(Model model) {
 		return "twitterLogin";
 	}
