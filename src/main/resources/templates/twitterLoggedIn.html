@@ -7,7 +7,7 @@
 <!--<![endif]-->
 
     <head>
-        <title>Twitter Login | Carey Development Demos</title>
+        <title>Logged In | Carey Development Demos</title>
         <meta content="Twitter login demo" name="description" />
         <object th:include="/fragments/head :: head" th:remove="tag"></object>
     </head>
@@ -20,8 +20,7 @@
                     <div class="container">
                         <div class="row">
 	                        <div class="col-md-12" style="text-align:left;margin-bottom:250px">
-	                        	<h3>Click the button below to sign in with Twitter</h3>
-	                            <a href="./getToken"><img th:src="@{/images/sign-in-with-twitter-gray.png}"/></a>
+	                        	<h3 th:text="'Congratulations! You are logged in as Twitter user ' + ${username} + '!'"></h3>
 	                        </div>
                    		</div>
                     </div>
