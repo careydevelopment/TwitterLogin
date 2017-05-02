@@ -1,6 +1,8 @@
 # TwitterLogin
 This project contains a Spring Boot demo that enables a user to login with Twitter
 
+Be sure to add your own consumer key and secret to the GetTokenController class!
+
 Just pull this project down in Eclipse, then build it. Once it's built, you can run it from the command line with:
 java -jar twitterlogin.jar
 
