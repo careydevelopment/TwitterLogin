@@ -26,8 +26,8 @@ public class TwitterCallbackController {
     	HttpServletRequest request, HttpServletResponse response, Model model) {
 
     	if (denied != null) {
-    		//if we get here, the user didn't authorize the app
-    		return "redirect:twitterLogin";
+            //if we get here, the user didn't authorize the app
+            return "redirect:twitterLogin";
     	}
     	
     	//get the objects from the session
@@ -35,7 +35,7 @@ public class TwitterCallbackController {
         RequestToken requestToken = (RequestToken) request.getSession().getAttribute("requestToken");
         
         try {
-        	//get the access token
+            //get the access token
             AccessToken token = twitter.getOAuthAccessToken(requestToken, oauthVerifier);
             
             //take the request token out of the session
