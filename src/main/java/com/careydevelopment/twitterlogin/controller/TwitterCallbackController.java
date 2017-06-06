@@ -16,6 +16,7 @@ import twitter4j.auth.RequestToken;
 
 @Controller
 public class TwitterCallbackController {
+	
 	private static final Logger LOGGER = LoggerFactory.getLogger(TwitterCallbackController.class); 
 	
 	//This is where we land when we get back from Twitter
