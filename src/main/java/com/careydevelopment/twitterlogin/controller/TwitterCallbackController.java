@@ -19,7 +19,7 @@ public class TwitterCallbackController {
 	
     private static final Logger LOGGER = LoggerFactory.getLogger(TwitterCallbackController.class); 
 	
-	//This is where we land when we get back from Twitter
+    //This is where we land when we get back from Twitter
     @RequestMapping("/twitterCallback")
     public String twitterCallback(@RequestParam(value="oauth_verifier", required=false) String oauthVerifier,
     	@RequestParam(value="denied", required=false) String denied,

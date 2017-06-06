@@ -6,28 +6,28 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <!--<![endif]-->
 
-    <head>
-        <title>Twitter Login | Carey Development Demos</title>
-        <meta content="Twitter login demo" name="description" />
-        <object th:include="fragments/head :: head" th:remove="tag"></object>
-    </head>
+  <head>
+      <title>Twitter Login | Carey Development Demos</title>
+      <meta content="Twitter login demo" name="description" />
+      <object th:include="fragments/head :: head" th:remove="tag"></object>
+  </head>
 
-    <body class="page-container-bg-solid">
+	<body class="page-container-bg-solid">
 		<div th:include="fragments/topmenuheader :: header"></div>
-        <div class="page-container">
-            <div class="page-content-wrapper">
-                <div class="page-head" style="background-color:#eff3f8;padding-top:40px">
-                    <div class="container">
-                        <div class="row">
-	                        <div class="col-md-12" style="text-align:left;margin-bottom:250px">
-	                        	<h3>Click the button below to sign in with Twitter</h3>
-	                            <a th:href="@{/getToken}"><img th:src="@{/images/sign-in-with-twitter-gray.png}"/></a>
-	                        </div>
-                   		</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div th:include="fragments/homefooter :: footer"></div>
-    </body>
+		<div class="page-container">
+			<div class="page-content-wrapper">
+				<div class="page-head" style="background-color:#eff3f8;padding-top:40px">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12" style="text-align:left;margin-bottom:250px">
+								<h3>Click the button below to sign in with Twitter</h3>
+								<a th:href="@{/getToken}"><img th:src="@{/images/sign-in-with-twitter-gray.png}"/></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div th:include="fragments/homefooter :: footer"></div>
+	</body>
 </html>
